@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+}
+
+.container-cars {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
