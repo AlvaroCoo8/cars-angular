@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { CarCeroComponent } from './cars/car-cero/car-cero.component';
 import { CarOneComponent } from './cars/car-one/car-one.component';
 import { CarTwoComponent } from './cars/car-two/car-two.component';
+import { ForOldComponent } from './components/for-old/for-old.component';
+import { ForLatestComponent } from './components/for-latest/for-latest.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarCeroComponent,
     CarOneComponent,
-    CarTwoComponent
+    CarTwoComponent,
+    ForOldComponent,
+    ForLatestComponent
   ],
   imports: [
     BrowserModule
