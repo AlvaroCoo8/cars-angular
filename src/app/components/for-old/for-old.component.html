@@ -1,1 +1,11 @@
-<p>for-old works!</p>
+<div class="container">
+  <h2>{{ title }}</h2>
+  <div class="card" *ngFor="let car of cars; let index = index">
+    <span>{{ index }}</span>
+    <h3>{{ car.id }}</h3>
+    <p><strong>Make:</strong> {{ car.make }}</p>
+    <p><strong>Model:</strong> {{ car.model }}</p>
+    <p><strong>Type:</strong> {{ car.type }}</p>
+    <p><strong>Year:</strong> {{ car.year }}</p>
+  </div>
+</div>
